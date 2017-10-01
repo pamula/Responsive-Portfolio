@@ -1,0 +1,323 @@
+body{
+
+	background-color: #eeeeee;}
+
+
+
+h1{
+
+background-color: #7fffd4;
+
+	padding:8px;
+
+	width:190px;
+
+	color:white;
+
+	margin-left:40px;
+
+	
+
+}
+
+header{
+
+	background-color: white;
+
+	
+
+	margin-top: 0px;
+
+	width:100%;
+
+}
+
+.wrapper{
+
+width:590px;
+
+	padding:20px;
+
+	background-color: white;
+
+	margin-left: 40px;
+
+	height:796px;
+
+
+
+}
+
+#navbar{
+
+	background-color: white;
+
+	padding:10px;
+
+	
+
+	margin-top: 0px;
+
+	width:10;}
+
+	.n1{
+
+		position: relative;
+
+		float:right;
+
+		width:200px;
+
+
+
+
+
+	}
+
+
+
+
+
+	
+
+.second{
+
+
+
+	position:absolute;
+
+top:200px;
+
+right:20px;
+
+	
+
+	margin-right: 5px;
+
+	border: 2px solid #eee;
+
+	background-color: white;
+
+	width:320px;
+
+	padding:15px;
+
+	text-align: center;
+
+	font-size: 25px;
+
+}
+
+#hng{
+
+	color:white;
+
+	background-color: #7fffd4;
+
+	padding:1px;
+
+	width:278px;
+
+	position:relative;
+
+	bottom:65px;
+
+}
+
+
+
+h3{
+
+color:#7fffd4;
+
+}
+
+
+
+h4{
+
+	background-color: #7fffd4;
+
+padding:20px;
+
+width:240px;
+
+position:relative;
+
+bottom:90px;
+
+}
+
+h5{
+
+	background-color: #7fffd4;
+
+padding:20px;
+
+width:240px;
+
+position:relative;
+
+bottom:90px;
+
+
+
+}
+
+#p1{
+
+	background-color: #7fffd4;
+
+	padding:1px;
+
+	width:278px;
+
+	position:relative;
+
+bottom:75px;
+
+}
+
+
+#p2{
+
+	background-color: #7fffd4;
+
+	padding:1px;
+
+	width:278px;
+
+	position:relative;
+
+bottom:65px;
+
+}
+
+#one{
+
+	
+
+	float:right;
+
+	position:relative;
+
+	bottom:260px;
+
+
+
+}
+
+#three{
+
+	float:right;
+
+	position:relative;
+
+	margin-left: 100px;
+
+	bottom:320px;
+
+}
+
+#four{
+
+	position:relative;
+
+	bottom:330px;
+
+}
+
+#line{
+
+	position:relative;
+
+	bottom:20px;
+
+}
+
+h2{
+
+	color:#7fffd4;
+
+}
+
+h4,h5,h6,p{
+
+	color:white;
+
+}
+}
+
+
+@media(min-width: 300px) and (max-width: 640px){
+	.wrapper{
+		width:590px;
+		padding:20px;
+		margin-left: 25px;
+		height:796px;
+
+	}
+	.second{
+		position:relative;
+		top:1000px;
+		right: 20px;
+
+margin-right: -90px;
+width:320px;
+
+}
+#navbar{
+	padding:10px;
+	float:right;
+	margin-right: -300px;
+}
+#line{
+	position:relative;
+	bottom: 20px;
+	width:230%;
+}
+
+
+
+
+	}
+@media(min-width: 641px) and (max-width: 768px){
+	.second{
+		position:absolute;
+		top:300px;
+		right: 20px;
+		height:300px;
+		margin-right: -700px;
+		width: 500px;
+		padding: 15px;
+
+	}
+	.wrapper{
+		width: 650px;
+		margin-left: 25px;
+		height:1200px;
+		position: relative;
+		top:150px;
+	}
+	#line{
+		position: relative;
+		bottom:10px;
+		width:220%;
+	}
+	h1{
+		width: 220px;
+		margin-left: 40px;
+		height:80px;
+	}
+
+}
+@media(min-width: 769px) and (max-width: 960px){
+	h1{
+		width:190px;
+		margin-left: 40px;
+	}
+	
+
+}
+
+
